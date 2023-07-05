@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Tachiramia
+Author: Una Agencia Aburrida
+Version:1.1
+License: GNU General Public License v2 or later
+Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready
+*/
+
+
+     /* Estilos CSS para el fondo de la página */
+body {
+    background-image: url('<?php echo get_template_directory_uri (); ?>/images/fondo2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Estilos CSS para el encabezado */
+header {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px; /* Se agregó la unidad de medida 'px' */
+    border-radius: 100px;
+    text-align: right;
+    margin-top: 50px;
+    text-decoration: none; /* Eliminado el subrayado */
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+* Estilos CSS para el menú principal */
+nav ul {
+    list-style: none;
+    padding: 5px 5px; /* Se agregó la unidad de medida 'px' */
+    margin: 0;
+    font-family: Calibri;
+    text-decoration: none; /* Eliminado el subrayado */
+}
+
+nav ul li {
+    padding: 5px 5px; /* Se agregó la unidad de medida 'px' */
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: none; /* Eliminado el subrayado */
+}
+
+
+/* Estilos CSS para el logo */
+.logo {
+    border-radius: 1%;
+    margin-right: 2px;
+}
+
+/* Estilos CSS para la tipografía */
+.site-title {
+    font-family: Calibri;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none; /* Eliminado el subrayado */
+}
+
+
+
+/* Estilos CSS para el contenedor de la imagen */
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px;
+    margin-top: 50px;
+    margin-left: 5%; /* Ajuste de centrado horizontal */
+}
+
+.image-container img {
+    width: 300px;
+    height: auto;
+}
+
+/* Estilos CSS para el contenedor derecho */
+.right-container {
+    position: absolute;
+    top: 55%;
+    right: 10%; /* Ajuste de centrado horizontal */
+    transform: translate(10%, -50%);
+    background-color: #f1f1f1;
+    border-radius: 25px;
+    padding: 120px;
+    width: 400px; /* Ajusta el ancho según sea necesario */
+}
+
+/* Estilos CSS para el contenido del contenedor derecho */
+.right-container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Estilos CSS para el título del contenedor derecho */
+.right-container-title {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+/* Estilos CSS para el texto "Tendencias" */
+.texto-tendencias {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -30px;
+    text-align: center;
+    margin-left: 60px; 
+    justify-content: right;
+    right: 10%; 
+}
+
+
+/* Estilos CSS para los contenedores cuadrados */
+.contenedor {
+    float: right;
+    display: inline-block;
+    width: 4px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 8px;
+    margin: 1px; /* Ajusta el espacio entre los contenedores */
+    margin-top: -30px;
+    margin-left: 40px; /* Centra el contenedor horizontalmente */
+    margin-right: 40px; /* Centra el contenedor horizontalmente */
+    justify-content: right;
+}
+
+.contenedor {
+    width: 150px;
+    height: 100px;
+    background-color:#171a35;
+    border-radius: 8px;
+    margin: 1px; /* Ajusta el espacio entre los contenedores */
+    margin-left: 20px; /* Centra el contenedor horizontalmente */
+    margin-right: 10px; /* Centra el contenedor horizontalmente */
+    margin-top: -10px;
+}
