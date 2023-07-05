@@ -23,11 +23,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px 5px; /* Se agregó la unidad de medida 'px' */
+    padding: 5px 5px; 
     border-radius: 100px;
     text-align: right;
     margin-top: 50px;
-    text-decoration: none; /* Eliminado el subrayado */
+    text-decoration: none; 
     margin-left: 160px;
     margin-right: 160px;
 }
@@ -35,17 +35,16 @@ header {
 * Estilos CSS para el menú principal */
 nav ul {
     list-style: none;
-    padding: 5px 5px; /* Se agregó la unidad de medida 'px' */
+    padding: 5px 5px; 
     margin: 0;
-    font-family: Calibri;
-    text-decoration: none; /* Eliminado el subrayado */
-}
+    font-family: Arial, sans-serif;
+    text-decoration: none; 
 
 nav ul li {
-    padding: 5px 5px; /* Se agregó la unidad de medida 'px' */
+    padding: 5px 5px; 
     display: inline-block;
     margin-right: 30px;
-    text-decoration: none; /* Eliminado el subrayado */
+    text-decoration: none; 
 }
 
 
@@ -57,11 +56,11 @@ nav ul li {
 
 /* Estilos CSS para la tipografía */
 .site-title {
-    font-family: Calibri;
+    font-family: Arial, sans-serif;
     font-size: 24px;
     font-weight: bold;
     color: black;
-    text-decoration: none; /* Eliminado el subrayado */
+    text-decoration: none; 
 }
 
 
@@ -73,7 +72,7 @@ nav ul li {
     justify-content: flex-start;
     padding: 40px;
     margin-top: 50px;
-    margin-left: 5%; /* Ajuste de centrado horizontal */
+    margin-left: 5%; 
 }
 
 .image-container img {
@@ -85,12 +84,12 @@ nav ul li {
 .right-container {
     position: absolute;
     top: 55%;
-    right: 10%; /* Ajuste de centrado horizontal */
+    right: 10%; 
     transform: translate(10%, -50%);
     background-color: #f1f1f1;
     border-radius: 25px;
     padding: 120px;
-    width: 400px; /* Ajusta el ancho según sea necesario */
+    width: 400px; 
 }
 
 /* Estilos CSS para el contenido del contenedor derecho */
@@ -131,10 +130,10 @@ nav ul li {
     height: 40px;
     background-color: blue;
     border-radius: 8px;
-    margin: 1px; /* Ajusta el espacio entre los contenedores */
+    margin: 1px; 
     margin-top: -30px;
-    margin-left: 40px; /* Centra el contenedor horizontalmente */
-    margin-right: 40px; /* Centra el contenedor horizontalmente */
+    margin-left: 40px; 
+    margin-right: 40px; 
     justify-content: right;
 }
 
@@ -143,8 +142,8 @@ nav ul li {
     height: 100px;
     background-color:#171a35;
     border-radius: 8px;
-    margin: 1px; /* Ajusta el espacio entre los contenedores */
-    margin-left: 20px; /* Centra el contenedor horizontalmente */
-    margin-right: 10px; /* Centra el contenedor horizontalmente */
+    margin: 1px;
+    margin-left: 20px; 
+    margin-right: 10px; 
     margin-top: -10px;
 }
